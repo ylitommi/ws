@@ -1,0 +1,46 @@
+[0.016s] Invoking command in '/home/tommi/ros2/ws/build/service_client_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tommi/ros2/ws/install/number_publisher:/home/tommi/ros2/ws/install/number_counter_py:/home/tommi/ros2/ws/install/temperature:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tommi/ros2/ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/number_publisher/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/number_counter_py/lib/python3.12/site-packages:/home/tommi/ros2/ws/build/temperature:/home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/tommi/ros2/ws/service_client_cpp -DCMAKE_INSTALL_PREFIX=/home/tommi/ros2/ws/install/service_client_cpp
+[0.080s] -- The C compiler identification is GNU 13.3.0
+[0.148s] -- The CXX compiler identification is GNU 13.3.0
+[0.167s] -- Detecting C compiler ABI info
+[0.269s] -- Detecting C compiler ABI info - done
+[0.279s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.279s] -- Detecting C compile features
+[0.280s] -- Detecting C compile features - done
+[0.290s] -- Detecting CXX compiler ABI info
+[0.408s] -- Detecting CXX compiler ABI info - done
+[0.419s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.420s] -- Detecting CXX compile features
+[0.420s] -- Detecting CXX compile features - done
+[0.426s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.618s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.782s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.854s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.879s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.905s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.941s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.084s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.092s] -- Found rmw_cyclonedds_cpp: 2.2.2 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[1.159s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.272s] -- Found my_robot_interfaces: 0.0.0 (/home/tommi/ros2/ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[1.295s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.428s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.428s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tommi/ros2/ws/service_client_cpp/include>
+[1.429s] -- Configured cppcheck exclude dirs and/or files: 
+[1.430s] -- Added test 'lint_cmake' to check CMake code style
+[1.432s] -- Added test 'uncrustify' to check C / C++ code style
+[1.433s] -- Configured uncrustify additional arguments: 
+[1.434s] -- Added test 'xmllint' to check XML markup files
+[1.436s] -- Configuring done (1.4s)
+[1.448s] -- Generating done (0.0s)
+[1.451s] -- Build files have been written to: /home/tommi/ros2/ws/build/service_client_cpp
+[1.460s] Invoked command in '/home/tommi/ros2/ws/build/service_client_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tommi/ros2/ws/install/number_publisher:/home/tommi/ros2/ws/install/number_counter_py:/home/tommi/ros2/ws/install/temperature:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tommi/ros2/ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/number_publisher/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/number_counter_py/lib/python3.12/site-packages:/home/tommi/ros2/ws/build/temperature:/home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake /home/tommi/ros2/ws/service_client_cpp -DCMAKE_INSTALL_PREFIX=/home/tommi/ros2/ws/install/service_client_cpp
+[1.462s] Invoking command in '/home/tommi/ros2/ws/build/service_client_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tommi/ros2/ws/install/number_publisher:/home/tommi/ros2/ws/install/number_counter_py:/home/tommi/ros2/ws/install/temperature:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tommi/ros2/ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/number_publisher/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/number_counter_py/lib/python3.12/site-packages:/home/tommi/ros2/ws/build/temperature:/home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/tommi/ros2/ws/build/service_client_cpp -- -j8 -l8
+[1.527s] [ 50%] [32mBuilding CXX object CMakeFiles/call_client.dir/src/call_client.cpp.o[0m
+[1.945s] [01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/msg/int64.msg: No such file or directory
+[1.945s]     3 | #include [01;31m[K"my_robot_interfaces/msg/int64.msg"[m[K
+[1.945s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.945s] compilation terminated.
+[1.948s] gmake[2]: *** [CMakeFiles/call_client.dir/build.make:76: CMakeFiles/call_client.dir/src/call_client.cpp.o] Error 1
+[1.948s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/call_client.dir/all] Error 2
+[1.949s] gmake: *** [Makefile:146: all] Error 2
+[1.951s] Invoked command in '/home/tommi/ros2/ws/build/service_client_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tommi/ros2/ws/install/number_publisher:/home/tommi/ros2/ws/install/number_counter_py:/home/tommi/ros2/ws/install/temperature:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tommi/ros2/ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/number_publisher/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/number_counter_py/lib/python3.12/site-packages:/home/tommi/ros2/ws/build/temperature:/home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/tommi/ros2/ws/build/service_client_cpp -- -j8 -l8

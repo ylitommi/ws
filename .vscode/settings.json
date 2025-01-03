@@ -1,0 +1,8 @@
+{
+    "ros.distro": "jazzy",
+    "files.associations": {
+        "cstdio": "cpp",
+        "functional": "cpp",
+        "chrono": "cpp"
+    }
+}

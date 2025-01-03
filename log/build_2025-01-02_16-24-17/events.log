@@ -1,0 +1,8 @@
+[0.000000] (-) TimerEvent: {}
+[0.000098] (-) JobUnselected: {'identifier': 'new_my_robot_interfaces'}
+[0.000140] (-) JobUnselected: {'identifier': 'number_counter_py'}
+[0.000158] (-) JobUnselected: {'identifier': 'number_publisher'}
+[0.000185] (-) JobUnselected: {'identifier': 'service_client_cpp'}
+[0.000197] (-) JobUnselected: {'identifier': 'temperature'}
+[0.000209] (-) JobUnselected: {'identifier': 'turtle_challenge_cpp'}
+[0.000221] (-) EventReactorShutdown: {}

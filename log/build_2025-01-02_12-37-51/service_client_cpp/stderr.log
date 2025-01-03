@@ -1,0 +1,77 @@
+[01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:12:24:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   12 |     CallClient(): Node([01;35m[K'call_client_cpp'[m[K){
+      |                        [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:13:51:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+   13 |       client_ = this->create_client<ResetCounter>([01;35m[K'reset_counter'[m[K);
+      |                                                   [01;35m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:7:12:[m[K [01;31m[Kerror: [m[Kusing-declaration may not name namespace ‘[01m[Kstd::placeholders[m[K’
+    7 | using std::[01;31m[Kplaceholders[m[K;
+      |            [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:8:12:[m[K [01;31m[Kerror: [m[Kusing-declaration may not name namespace ‘[01m[Kstd::literals::chrono_literals[m[K’
+    8 | using std::[01;31m[Kchrono_literals[m[K;
+      |            [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:31:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   31 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:[m[K In constructor ‘[01m[KCallClient::[01;32m[KCallClient[m[K()[m[K’:
+[01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:12:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node(int)[m[K’
+   12 |     CallClient(): Node('call_client_cpp'[01;31m[K)[m[K{
+      |                                         [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+                 from [01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:2[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const rclcpp::Node&, const std::string&)[m[K’
+ 1629 |   [01;36m[KNode[m[K(
+      |   [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const std::string&, const std::string&, const rclcpp::NodeOptions&)[m[K’
+  103 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const std::string&, const rclcpp::NodeOptions&)[m[K’
+   91 |   explicit [01;36m[KNode[m[K(
+      |            [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:92:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+   92 |     [01;36m[Kconst std::string & node_name[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:13:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KCallClient::create_client<ResetCounter>(int)[m[K’
+   13 |       client_ = [01;31m[Kthis->create_client<ResetCounter>('reset_counter')[m[K;
+      |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:271:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  271 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:271:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663[m[K:
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:143:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktypename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr) [35m[K[with ServiceT = my_robot_interfaces::srv::ResetCounter; typename rclcpp::Client<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Client<my_robot_interfaces::srv::ResetCounter> >; std::string = std::__cxx11::basic_string<char>; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K[m[K’
+  143 | [01;36m[KNode[m[K::create_client(
+      | [01;36m[K^~~~[m[K
+[01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:144:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+  144 |   [01;36m[Kconst std::string & service_name[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:[m[K In member function ‘[01m[Kvoid CallClient::[01;32m[KcallResetCounter[m[K(int)[m[K’:
+[01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:17:41:[m[K [01;31m[Kerror: [m[Kunable to find numeric literal operator ‘[01m[Koperator""s[m[K’
+   17 |       while (!client_->wait_for_service([01;31m[K1s[m[K)){
+      |                                         [01;31m[K^~[m[K
+[01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:19:7:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+   19 |       [01;31m[K}[m[K
+      |       [01;31m[K^[m[K
+[01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:22:103:[m[K [01;31m[Kerror: [m[K‘[01m[K_1[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::placeholders::_1[m[K’?
+   22 |       client_->async_send_request(request, std::bind(&CallClient::callbackResetCounterResponse, this, [01;31m[K_1[m[K))
+      |                                                                                                       [01;31m[K^~[m[K
+      |                                                                                                       [32m[Kstd::placeholders::_1[m[K
+In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/utilities.hpp:19[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/logging.hpp:25[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K:
+[01m[K/usr/include/c++/13/functional:294:48:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::placeholders::_1[m[K’ declared here
+  294 |     _GLIBCXX_PLACEHOLDER const _Placeholder<1> [01;36m[K_1[m[K;
+      |                                                [01;36m[K^~[m[K
+[01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:[m[K In function ‘[01m[Kint[01;32m[K main[m[K(int, char**)[m[K’:
+[01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:38:3:[m[K [01;35m[Kwarning: [m[Klabel ‘[01m[Krclcpp[m[K’ defined but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-label-Wunused-label]8;;[m[K]
+   38 |   [01;35m[Krclcpp[m[K:spin(node);
+      |   [01;35m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/call_client.dir/build.make:76: CMakeFiles/call_client.dir/src/call_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/call_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,25 @@
+[0.848s] Invoking command in '/home/tommi/ros2/ws/number_publisher': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tommi/ros2/ws/build/number_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tommi/ros2/ws/install/number_publisher/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tommi/ros2/ws/build/temperature:/home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/number_publisher/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/number_publisher build --build-base /home/tommi/ros2/ws/build/number_publisher/build install --record /home/tommi/ros2/ws/build/number_publisher/install.log --single-version-externally-managed install_data
+[1.133s] running egg_info
+[1.154s] writing ../build/number_publisher/number_publisher.egg-info/PKG-INFO
+[1.154s] writing dependency_links to ../build/number_publisher/number_publisher.egg-info/dependency_links.txt
+[1.155s] writing entry points to ../build/number_publisher/number_publisher.egg-info/entry_points.txt
+[1.155s] writing requirements to ../build/number_publisher/number_publisher.egg-info/requires.txt
+[1.155s] writing top-level names to ../build/number_publisher/number_publisher.egg-info/top_level.txt
+[1.199s] reading manifest file '../build/number_publisher/number_publisher.egg-info/SOURCES.txt'
+[1.199s] adding license file 'LICENSE'
+[1.200s] writing manifest file '../build/number_publisher/number_publisher.egg-info/SOURCES.txt'
+[1.200s] running build
+[1.200s] running build_py
+[1.200s] copying number_publisher/number_publisher.py -> /home/tommi/ros2/ws/build/number_publisher/build/lib/number_publisher
+[1.200s] running install
+[1.207s] running install_lib
+[1.230s] copying /home/tommi/ros2/ws/build/number_publisher/build/lib/number_publisher/number_publisher.py -> /home/tommi/ros2/ws/install/number_publisher/lib/python3.12/site-packages/number_publisher
+[1.230s] byte-compiling /home/tommi/ros2/ws/install/number_publisher/lib/python3.12/site-packages/number_publisher/number_publisher.py to number_publisher.cpython-312.pyc
+[1.231s] running install_data
+[1.231s] running install_egg_info
+[1.255s] removing '/home/tommi/ros2/ws/install/number_publisher/lib/python3.12/site-packages/number_publisher-0.0.0-py3.12.egg-info' (and everything under it)
+[1.255s] Copying ../build/number_publisher/number_publisher.egg-info to /home/tommi/ros2/ws/install/number_publisher/lib/python3.12/site-packages/number_publisher-0.0.0-py3.12.egg-info
+[1.256s] running install_scripts
+[1.401s] Installing number_publisher script to /home/tommi/ros2/ws/install/number_publisher/lib/number_publisher
+[1.402s] writing list of installed files to '/home/tommi/ros2/ws/build/number_publisher/install.log'
+[1.426s] Invoked command in '/home/tommi/ros2/ws/number_publisher' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tommi/ros2/ws/build/number_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tommi/ros2/ws/install/number_publisher/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tommi/ros2/ws/build/temperature:/home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/number_publisher/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/number_publisher build --build-base /home/tommi/ros2/ws/build/number_publisher/build install --record /home/tommi/ros2/ws/build/number_publisher/install.log --single-version-externally-managed install_data

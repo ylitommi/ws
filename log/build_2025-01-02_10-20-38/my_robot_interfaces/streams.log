@@ -1,0 +1,16 @@
+[0.012s] Invoking command in '/home/tommi/ros2/ws/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tommi/ros2/ws/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/tommi/ros2/ws/install/my_robot_interfaces
+[0.029s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.246s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.248s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.286s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.319s] -- Found rosidl_adapter: 4.6.4 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[0.321s] [31mCMake Error at /opt/ros/jazzy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:95 (message):
+[0.322s]   rosidl_generate_interfaces() the passed file 'srv/ResetCounter' doesn't
+[0.322s]   exist relative to the CMAKE_CURRENT_SOURCE_DIR
+[0.322s]   '/home/tommi/ros2/ws/my_robot_interfaces'
+[0.322s] Call Stack (most recent call first):
+[0.322s]   CMakeLists.txt:12 (rosidl_generate_interfaces)
+[0.322s] 
+[0.322s] [0m
+[0.322s] -- Configuring incomplete, errors occurred!
+[0.326s] Invoked command in '/home/tommi/ros2/ws/build/my_robot_interfaces' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tommi/ros2/ws/my_robot_interfaces -DCMAKE_INSTALL_PREFIX=/home/tommi/ros2/ws/install/my_robot_interfaces

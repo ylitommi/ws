@@ -1,0 +1,96 @@
+[0.014s] Invoking command in '/home/tommi/ros2/ws/build/service_client_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tommi/ros2/ws/install/temperature:/home/tommi/ros2/ws/install/number_publisher:/home/tommi/ros2/ws/install/number_counter_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tommi/ros2/ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tommi/ros2/ws/build/temperature:/home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/number_publisher/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/number_counter_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/tommi/ros2/ws/build/service_client_cpp -- -j8 -l8
+[0.043s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.297s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.329s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.340s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.356s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.379s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.454s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.456s] -- Found rmw_cyclonedds_cpp: 2.2.2 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[0.486s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.551s] -- Found my_robot_interfaces: 0.0.0 (/home/tommi/ros2/ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)
+[0.569s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.670s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.670s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tommi/ros2/ws/service_client_cpp/include>
+[0.670s] -- Configured cppcheck exclude dirs and/or files: 
+[0.671s] -- Added test 'lint_cmake' to check CMake code style
+[0.672s] -- Added test 'uncrustify' to check C / C++ code style
+[0.672s] -- Configured uncrustify additional arguments: 
+[0.673s] -- Added test 'xmllint' to check XML markup files
+[0.674s] -- Configuring done (0.6s)
+[0.685s] -- Generating done (0.0s)
+[0.689s] -- Build files have been written to: /home/tommi/ros2/ws/build/service_client_cpp
+[0.741s] [ 50%] [32mBuilding CXX object CMakeFiles/call_client.dir/src/call_client.cpp.o[0m
+[1.071s] [01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:12:24:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[1.072s]    12 |     CallClient(): Node([01;35m[K'call_client_cpp'[m[K){
+[1.072s]       |                        [01;35m[K^~~~~~~~~~~~~~~~~[m[K
+[1.072s] [01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:13:51:[m[K [01;35m[Kwarning: [m[Kcharacter constant too long for its type
+[1.072s]    13 |       client_ = this->create_client<ResetCounter>([01;35m[K'reset_counter'[m[K);
+[1.072s]       |                                                   [01;35m[K^~~~~~~~~~~~~~~[m[K
+[2.989s] [01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:7:12:[m[K [01;31m[Kerror: [m[Kusing-declaration may not name namespace ‘[01m[Kstd::placeholders[m[K’
+[2.989s]     7 | using std::[01;31m[Kplaceholders[m[K;
+[2.990s]       |            [01;31m[K^~~~~~~~~~~~[m[K
+[2.990s] [01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:8:22:[m[K [01;31m[Kerror: [m[Kusing-declaration may not name namespace ‘[01m[Kstd::literals::chrono_literals[m[K’
+[2.990s]     8 | using std::literals::[01;31m[Kchrono_literals[m[K;
+[2.990s]       |                      [01;31m[K^~~~~~~~~~~~~~~[m[K
+[2.990s] [01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:41:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+[2.990s]    41 | }
+[2.990s]       |  [01;31m[K^[m[K
+[2.990s]       |  [32m[K;[m[K
+[2.991s] [01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:[m[K In constructor ‘[01m[KCallClient::[01;32m[KCallClient[m[K()[m[K’:
+[2.991s] [01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:12:41:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::Node(int)[m[K’
+[2.991s]    12 |     CallClient(): Node('call_client_cpp'[01;31m[K)[m[K{
+[2.991s]       |                                         [01;31m[K^[m[K
+[2.991s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[2.991s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[2.991s]                  from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K,
+[2.991s]                  from [01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:2[m[K:
+[2.991s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const rclcpp::Node&, const std::string&)[m[K’
+[2.992s]  1629 |   [01;36m[KNode[m[K(
+[2.992s]       |   [01;36m[K^~~~[m[K
+[2.992s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1629:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[2.992s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const std::string&, const std::string&, const rclcpp::NodeOptions&)[m[K’
+[2.992s]   103 |   explicit [01;36m[KNode[m[K(
+[2.992s]       |            [01;36m[K^~~~[m[K
+[2.992s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:103:12:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+[2.992s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:91:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Krclcpp::Node::[01;32m[KNode[m[K(const std::string&, const rclcpp::NodeOptions&)[m[K’
+[2.992s]    91 |   explicit [01;36m[KNode[m[K(
+[2.993s]       |            [01;36m[K^~~~[m[K
+[2.993s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:92:25:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+[2.993s]    92 |     [01;36m[Kconst std::string & node_name[m[K,
+[2.993s]       |     [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[2.996s] [01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:13:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kclient_[m[K’ was not declared in this scope
+[2.996s]    13 |       [01;31m[Kclient_[m[K = this->create_client<ResetCounter>('reset_counter');
+[2.997s]       |       [01;31m[K^~~~~~~[m[K
+[3.003s] [01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:13:50:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KCallClient::create_client<ResetCounter>(int)[m[K’
+[3.004s]    13 |       client_ = [01;31m[Kthis->create_client<ResetCounter>('reset_counter')[m[K;
+[3.004s]       |                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[3.004s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:271:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+[3.004s]   271 |   [01;36m[Kcreate_client[m[K(
+[3.004s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[3.004s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:271:3:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+[3.004s] In file included from [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node.hpp:1663[m[K:
+[3.004s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:143:1:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktypename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::[01;32m[Kcreate_client[m[K(const std::string&, const rclcpp::QoS&, rclcpp::CallbackGroup::SharedPtr) [35m[K[with ServiceT = my_robot_interfaces::srv::ResetCounter; typename rclcpp::Client<ServiceT>::SharedPtr = std::shared_ptr<rclcpp::Client<my_robot_interfaces::srv::ResetCounter> >; std::string = std::__cxx11::basic_string<char>; rclcpp::CallbackGroup::SharedPtr = std::shared_ptr<rclcpp::CallbackGroup>][m[K[m[K’
+[3.005s]   143 | [01;36m[KNode[m[K::create_client(
+[3.005s]       | [01;36m[K^~~~[m[K
+[3.005s] [01m[K/opt/ros/jazzy/include/rclcpp/rclcpp/node_impl.hpp:144:23:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kint[m[K’ to ‘[01m[Kconst std::string&[m[K’ {aka ‘[01m[Kconst std::__cxx11::basic_string<char>&[m[K’}
+[3.005s]   144 |   [01;36m[Kconst std::string & service_name[m[K,
+[3.005s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~[m[K
+[3.005s] [01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:15:37:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.005s]    15 |     void callResetCounter(int value)[01;31m[K{[m[K
+[3.005s]       |                                     [01;31m[K^[m[K
+[3.006s] [01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:24:89:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[3.006s]    24 | unterResponse(rclcpp::Client<ResetCounter>::SharedFuture future)[01;31m[K{[m[K
+[3.006s]       |                                                                 [01;31m[K^[m[K
+[3.006s] 
+[3.006s] [01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:28:3:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kprivate[m[K’
+[3.006s]    28 |   [01;31m[Kprivate[m[K:
+[3.006s]       |   [01;31m[K^~~~~~~[m[K
+[3.006s] [01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:[m[K In member function ‘[01m[Kint CallClient::[01;32m[Kmain[m[K(int, char**)[m[K’:
+[3.007s] [01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:36:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing std::__shared_ptr_access<CallClient, __gnu_cxx::_S_atomic, false, false>::element_type = class CallClient[m[K’ {aka ‘[01m[Kclass CallClient[m[K’} has no member named ‘[01m[KcallResetCounter[m[K’
+[3.007s]    36 |   node->[01;31m[KcallResetCounter[m[K(20);
+[3.007s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.638s] gmake[2]: *** [CMakeFiles/call_client.dir/build.make:76: CMakeFiles/call_client.dir/src/call_client.cpp.o] Error 1
+[3.638s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/call_client.dir/all] Error 2
+[3.638s] gmake: *** [Makefile:146: all] Error 2
+[3.641s] Invoked command in '/home/tommi/ros2/ws/build/service_client_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tommi/ros2/ws/install/temperature:/home/tommi/ros2/ws/install/number_publisher:/home/tommi/ros2/ws/install/number_counter_py:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tommi/ros2/ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tommi/ros2/ws/build/temperature:/home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/number_publisher/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/number_counter_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/cmake --build /home/tommi/ros2/ws/build/service_client_cpp -- -j8 -l8

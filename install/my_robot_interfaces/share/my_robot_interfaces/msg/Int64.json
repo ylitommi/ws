@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_robot_interfaces/msg/Int64",
+      "fields": [
+        {
+          "name": "data",
+          "type": {
+            "type_id": 8,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_robot_interfaces/msg/Int64",
+      "hash_string": "RIHS01_b660156e831358c70011f7ac4289e2df013433936c14ea7577a65d817a6a520e"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "my_robot_interfaces/srv/StopTurtle_Request",
+      "fields": [
+        {
+          "name": "activate",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "my_robot_interfaces/srv/StopTurtle_Request",
+      "hash_string": "RIHS01_3448e178de235997c4cfc49aa145b8b8abb4bde6cea4c6e6c54f2a4ffcf3140d"
+    }
+  ]
+}

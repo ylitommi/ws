@@ -1,0 +1,6 @@
+[01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:7:7:[m[K [01;31m[Kerror: [m[Kexpected nested-name-specifier before ‘[01m[Kstd[m[K’
+    7 | using [01;31m[Kstd[m[K;
+      |       [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/call_client.dir/build.make:76: CMakeFiles/call_client.dir/src/call_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/call_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

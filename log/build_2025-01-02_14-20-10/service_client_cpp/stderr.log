@@ -1,0 +1,5 @@
+[01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:[m[K In member function ‘[01m[Kvoid CallClient::[01;32m[KcallbackResetCounterResponse[m[K(rclcpp::Client<my_robot_interfaces::srv::ResetCounter>::SharedFuture)[m[K’:
+[01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:32:7:[m[K [01;35m[Kwarning: [m[Kstatement is a reference, not call, to function ‘[01m[Kexit[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Waddress-Waddress]8;;[m[K]
+   32 |       [01;35m[Kexit[m[K;
+      |       [01;35m[K^~~~[m[K
+[01m[K/home/tommi/ros2/ws/service_client_cpp/src/call_client.cpp:32:7:[m[K [01;35m[Kwarning: [m[Kstatement has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]

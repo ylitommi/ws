@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing temperature.egg-info/PKG-INFO
+writing dependency_links to temperature.egg-info/dependency_links.txt
+writing entry points to temperature.egg-info/entry_points.txt
+writing requirements to temperature.egg-info/requires.txt
+writing top-level names to temperature.egg-info/top_level.txt
+reading manifest file 'temperature.egg-info/SOURCES.txt'
+writing manifest file 'temperature.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages/temperature.egg-link (link to .)
+Installing publish_temp script to /home/tommi/ros2/ws/install/temperature/lib/temperature
+
+Installed /home/tommi/ros2/ws/build/temperature
+running symlink_data

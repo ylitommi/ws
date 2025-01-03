@@ -1,0 +1,38 @@
+[1.085s] Invoking command in '/home/tommi/ros2/ws/temperature': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tommi/ros2/ws/build/temperature/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/temperature build --build-base /home/tommi/ros2/ws/build/temperature/build install --record /home/tommi/ros2/ws/build/temperature/install.log --single-version-externally-managed install_data
+[1.392s] running egg_info
+[1.393s] creating ../build/temperature/temperature.egg-info
+[1.416s] writing ../build/temperature/temperature.egg-info/PKG-INFO
+[1.416s] writing dependency_links to ../build/temperature/temperature.egg-info/dependency_links.txt
+[1.416s] writing entry points to ../build/temperature/temperature.egg-info/entry_points.txt
+[1.417s] writing requirements to ../build/temperature/temperature.egg-info/requires.txt
+[1.417s] writing top-level names to ../build/temperature/temperature.egg-info/top_level.txt
+[1.417s] writing manifest file '../build/temperature/temperature.egg-info/SOURCES.txt'
+[1.464s] reading manifest file '../build/temperature/temperature.egg-info/SOURCES.txt'
+[1.464s] adding license file 'LICENSE'
+[1.465s] writing manifest file '../build/temperature/temperature.egg-info/SOURCES.txt'
+[1.465s] running build
+[1.465s] running build_py
+[1.465s] creating /home/tommi/ros2/ws/build/temperature/build
+[1.465s] creating /home/tommi/ros2/ws/build/temperature/build/lib
+[1.465s] creating /home/tommi/ros2/ws/build/temperature/build/lib/temperature
+[1.466s] copying temperature/__init__.py -> /home/tommi/ros2/ws/build/temperature/build/lib/temperature
+[1.466s] copying temperature/publish_temp.py -> /home/tommi/ros2/ws/build/temperature/build/lib/temperature
+[1.466s] running install
+[1.472s] running install_lib
+[1.494s] creating /home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages/temperature
+[1.494s] copying /home/tommi/ros2/ws/build/temperature/build/lib/temperature/__init__.py -> /home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages/temperature
+[1.495s] copying /home/tommi/ros2/ws/build/temperature/build/lib/temperature/publish_temp.py -> /home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages/temperature
+[1.495s] byte-compiling /home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages/temperature/__init__.py to __init__.cpython-312.pyc
+[1.495s] byte-compiling /home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages/temperature/publish_temp.py to publish_temp.cpython-312.pyc
+[1.496s] running install_data
+[1.496s] creating /home/tommi/ros2/ws/install/temperature/share/ament_index
+[1.496s] creating /home/tommi/ros2/ws/install/temperature/share/ament_index/resource_index
+[1.496s] creating /home/tommi/ros2/ws/install/temperature/share/ament_index/resource_index/packages
+[1.496s] copying resource/temperature -> /home/tommi/ros2/ws/install/temperature/share/ament_index/resource_index/packages
+[1.497s] copying package.xml -> /home/tommi/ros2/ws/install/temperature/share/temperature
+[1.497s] running install_egg_info
+[1.521s] Copying ../build/temperature/temperature.egg-info to /home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages/temperature-0.0.0-py3.12.egg-info
+[1.522s] running install_scripts
+[1.681s] Installing publish_temp script to /home/tommi/ros2/ws/install/temperature/lib/temperature
+[1.682s] writing list of installed files to '/home/tommi/ros2/ws/build/temperature/install.log'
+[1.709s] Invoked command in '/home/tommi/ros2/ws/temperature' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tommi/ros2/ws/build/temperature/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/temperature build --build-base /home/tommi/ros2/ws/build/temperature/build install --record /home/tommi/ros2/ws/build/temperature/install.log --single-version-externally-managed install_data

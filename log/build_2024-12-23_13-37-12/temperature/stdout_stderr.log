@@ -1,0 +1,36 @@
+running egg_info
+creating ../build/temperature/temperature.egg-info
+writing ../build/temperature/temperature.egg-info/PKG-INFO
+writing dependency_links to ../build/temperature/temperature.egg-info/dependency_links.txt
+writing entry points to ../build/temperature/temperature.egg-info/entry_points.txt
+writing requirements to ../build/temperature/temperature.egg-info/requires.txt
+writing top-level names to ../build/temperature/temperature.egg-info/top_level.txt
+writing manifest file '../build/temperature/temperature.egg-info/SOURCES.txt'
+reading manifest file '../build/temperature/temperature.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/temperature/temperature.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/tommi/ros2/ws/build/temperature/build
+creating /home/tommi/ros2/ws/build/temperature/build/lib
+creating /home/tommi/ros2/ws/build/temperature/build/lib/temperature
+copying temperature/__init__.py -> /home/tommi/ros2/ws/build/temperature/build/lib/temperature
+copying temperature/publish_temp.py -> /home/tommi/ros2/ws/build/temperature/build/lib/temperature
+running install
+running install_lib
+creating /home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages/temperature
+copying /home/tommi/ros2/ws/build/temperature/build/lib/temperature/__init__.py -> /home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages/temperature
+copying /home/tommi/ros2/ws/build/temperature/build/lib/temperature/publish_temp.py -> /home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages/temperature
+byte-compiling /home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages/temperature/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages/temperature/publish_temp.py to publish_temp.cpython-312.pyc
+running install_data
+creating /home/tommi/ros2/ws/install/temperature/share/ament_index
+creating /home/tommi/ros2/ws/install/temperature/share/ament_index/resource_index
+creating /home/tommi/ros2/ws/install/temperature/share/ament_index/resource_index/packages
+copying resource/temperature -> /home/tommi/ros2/ws/install/temperature/share/ament_index/resource_index/packages
+copying package.xml -> /home/tommi/ros2/ws/install/temperature/share/temperature
+running install_egg_info
+Copying ../build/temperature/temperature.egg-info to /home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages/temperature-0.0.0-py3.12.egg-info
+running install_scripts
+Installing publish_temp script to /home/tommi/ros2/ws/install/temperature/lib/temperature
+writing list of installed files to '/home/tommi/ros2/ws/build/temperature/install.log'

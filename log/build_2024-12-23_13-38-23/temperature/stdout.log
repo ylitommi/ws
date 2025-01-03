@@ -1,0 +1,21 @@
+running egg_info
+writing ../build/temperature/temperature.egg-info/PKG-INFO
+writing dependency_links to ../build/temperature/temperature.egg-info/dependency_links.txt
+writing entry points to ../build/temperature/temperature.egg-info/entry_points.txt
+writing requirements to ../build/temperature/temperature.egg-info/requires.txt
+writing top-level names to ../build/temperature/temperature.egg-info/top_level.txt
+reading manifest file '../build/temperature/temperature.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/temperature/temperature.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+copying package.xml -> /home/tommi/ros2/ws/install/temperature/share/temperature
+running install_egg_info
+removing '/home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages/temperature-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../build/temperature/temperature.egg-info to /home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages/temperature-0.0.0-py3.12.egg-info
+running install_scripts
+Installing publish_temp script to /home/tommi/ros2/ws/install/temperature/lib/temperature
+writing list of installed files to '/home/tommi/ros2/ws/build/temperature/install.log'

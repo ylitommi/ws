@@ -1,0 +1,8 @@
+{
+  "package_name": "my_robot_interfaces",
+  "non_idl_tuples": [
+    "/home/tommi/ros2/ws/my_robot_interfaces:msg/Int64.msg",
+    "/home/tommi/ros2/ws/my_robot_interfaces:srv/ResetCounter.srv",
+    "/home/tommi/ros2/ws/my_robot_interfaces:srv/StopTurtle.srv"
+  ]
+}

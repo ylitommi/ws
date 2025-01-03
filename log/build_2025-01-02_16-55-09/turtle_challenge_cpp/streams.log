@@ -1,0 +1,10 @@
+[0.012s] Invoking command in '/home/tommi/ros2/ws/build/turtle_challenge_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tommi/ros2/ws/install/number_publisher:/home/tommi/ros2/ws/install/number_counter_py:/home/tommi/ros2/ws/install/temperature:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tommi/ros2/ws/build/turtle_challenge_cpp -- -j8 -l8
+[0.082s] [ 50%] [32mBuilding CXX object CMakeFiles/challenge2.dir/src/challenge2.cpp.o[0m
+[0.439s] [01m[K/home/tommi/ros2/ws/turtle_challenge_cpp/src/challenge2.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Kmy_robot_interfaces/srv/StopTurtle.hpp: No such file or directory
+[0.439s]     6 | #include [01;31m[K"my_robot_interfaces/srv/StopTurtle.hpp"[m[K
+[0.439s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.439s] compilation terminated.
+[0.442s] gmake[2]: *** [CMakeFiles/challenge2.dir/build.make:76: CMakeFiles/challenge2.dir/src/challenge2.cpp.o] Error 1
+[0.442s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/challenge2.dir/all] Error 2
+[0.442s] gmake: *** [Makefile:146: all] Error 2
+[0.445s] Invoked command in '/home/tommi/ros2/ws/build/turtle_challenge_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tommi/ros2/ws/install/number_publisher:/home/tommi/ros2/ws/install/number_counter_py:/home/tommi/ros2/ws/install/temperature:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tommi/ros2/ws/build/turtle_challenge_cpp -- -j8 -l8

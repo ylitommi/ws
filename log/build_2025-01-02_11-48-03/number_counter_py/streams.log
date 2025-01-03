@@ -1,0 +1,38 @@
+[0.892s] Invoking command in '/home/tommi/ros2/ws/number_counter_py': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tommi/ros2/ws/build/number_counter_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tommi/ros2/ws/install/number_counter_py/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tommi/ros2/ws/build/temperature:/home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/number_counter_py build --build-base /home/tommi/ros2/ws/build/number_counter_py/build install --record /home/tommi/ros2/ws/build/number_counter_py/install.log --single-version-externally-managed install_data
+[1.197s] running egg_info
+[1.197s] creating ../build/number_counter_py/number_counter_py.egg-info
+[1.221s] writing ../build/number_counter_py/number_counter_py.egg-info/PKG-INFO
+[1.221s] writing dependency_links to ../build/number_counter_py/number_counter_py.egg-info/dependency_links.txt
+[1.221s] writing entry points to ../build/number_counter_py/number_counter_py.egg-info/entry_points.txt
+[1.222s] writing requirements to ../build/number_counter_py/number_counter_py.egg-info/requires.txt
+[1.222s] writing top-level names to ../build/number_counter_py/number_counter_py.egg-info/top_level.txt
+[1.222s] writing manifest file '../build/number_counter_py/number_counter_py.egg-info/SOURCES.txt'
+[1.268s] reading manifest file '../build/number_counter_py/number_counter_py.egg-info/SOURCES.txt'
+[1.269s] adding license file 'LICENSE'
+[1.269s] writing manifest file '../build/number_counter_py/number_counter_py.egg-info/SOURCES.txt'
+[1.269s] running build
+[1.269s] running build_py
+[1.270s] creating /home/tommi/ros2/ws/build/number_counter_py/build
+[1.270s] creating /home/tommi/ros2/ws/build/number_counter_py/build/lib
+[1.270s] creating /home/tommi/ros2/ws/build/number_counter_py/build/lib/number_counter_py
+[1.270s] copying number_counter_py/number_counter_py.py -> /home/tommi/ros2/ws/build/number_counter_py/build/lib/number_counter_py
+[1.270s] copying number_counter_py/__init__.py -> /home/tommi/ros2/ws/build/number_counter_py/build/lib/number_counter_py
+[1.270s] running install
+[1.276s] running install_lib
+[1.299s] creating /home/tommi/ros2/ws/install/number_counter_py/lib/python3.12/site-packages/number_counter_py
+[1.299s] copying /home/tommi/ros2/ws/build/number_counter_py/build/lib/number_counter_py/number_counter_py.py -> /home/tommi/ros2/ws/install/number_counter_py/lib/python3.12/site-packages/number_counter_py
+[1.299s] copying /home/tommi/ros2/ws/build/number_counter_py/build/lib/number_counter_py/__init__.py -> /home/tommi/ros2/ws/install/number_counter_py/lib/python3.12/site-packages/number_counter_py
+[1.300s] byte-compiling /home/tommi/ros2/ws/install/number_counter_py/lib/python3.12/site-packages/number_counter_py/number_counter_py.py to number_counter_py.cpython-312.pyc
+[1.301s] byte-compiling /home/tommi/ros2/ws/install/number_counter_py/lib/python3.12/site-packages/number_counter_py/__init__.py to __init__.cpython-312.pyc
+[1.301s] running install_data
+[1.301s] creating /home/tommi/ros2/ws/install/number_counter_py/share/ament_index
+[1.301s] creating /home/tommi/ros2/ws/install/number_counter_py/share/ament_index/resource_index
+[1.301s] creating /home/tommi/ros2/ws/install/number_counter_py/share/ament_index/resource_index/packages
+[1.301s] copying resource/number_counter_py -> /home/tommi/ros2/ws/install/number_counter_py/share/ament_index/resource_index/packages
+[1.302s] copying package.xml -> /home/tommi/ros2/ws/install/number_counter_py/share/number_counter_py
+[1.302s] running install_egg_info
+[1.328s] Copying ../build/number_counter_py/number_counter_py.egg-info to /home/tommi/ros2/ws/install/number_counter_py/lib/python3.12/site-packages/number_counter_py-0.0.0-py3.12.egg-info
+[1.329s] running install_scripts
+[1.485s] Installing number_counter_py script to /home/tommi/ros2/ws/install/number_counter_py/lib/number_counter_py
+[1.485s] writing list of installed files to '/home/tommi/ros2/ws/build/number_counter_py/install.log'
+[1.509s] Invoked command in '/home/tommi/ros2/ws/number_counter_py' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tommi/ros2/ws/build/number_counter_py/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tommi/ros2/ws/install/number_counter_py/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tommi/ros2/ws/build/temperature:/home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/number_counter_py build --build-base /home/tommi/ros2/ws/build/number_counter_py/build install --record /home/tommi/ros2/ws/build/number_counter_py/install.log --single-version-externally-managed install_data

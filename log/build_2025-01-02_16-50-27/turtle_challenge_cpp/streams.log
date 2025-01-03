@@ -1,0 +1,10 @@
+[0.013s] Invoking command in '/home/tommi/ros2/ws/build/turtle_challenge_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tommi/ros2/ws/install/number_publisher:/home/tommi/ros2/ws/install/number_counter_py:/home/tommi/ros2/ws/install/temperature:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tommi/ros2/ws/build/turtle_challenge_cpp -- -j8 -l8
+[0.085s] [ 50%] [32mBuilding CXX object CMakeFiles/challenge2.dir/src/challenge2.cpp.o[0m
+[0.452s] [01m[K/home/tommi/ros2/ws/turtle_challenge_cpp/src/challenge2.cpp:3:10:[m[K [01;31m[Kfatal error: [m[Kexample_interfaces/msg/Float64.hpp: No such file or directory
+[0.452s]     3 | #include [01;31m[K"example_interfaces/msg/Float64.hpp"[m[K
+[0.452s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.453s] compilation terminated.
+[0.455s] gmake[2]: *** [CMakeFiles/challenge2.dir/build.make:76: CMakeFiles/challenge2.dir/src/challenge2.cpp.o] Error 1
+[0.456s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/challenge2.dir/all] Error 2
+[0.456s] gmake: *** [Makefile:146: all] Error 2
+[0.459s] Invoked command in '/home/tommi/ros2/ws/build/turtle_challenge_cpp' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tommi/ros2/ws/install/number_publisher:/home/tommi/ros2/ws/install/number_counter_py:/home/tommi/ros2/ws/install/temperature:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/tommi/ros2/ws/build/turtle_challenge_cpp -- -j8 -l8

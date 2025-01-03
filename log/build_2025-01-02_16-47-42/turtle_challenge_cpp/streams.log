@@ -1,0 +1,45 @@
+[0.011s] Invoking command in '/home/tommi/ros2/ws/build/turtle_challenge_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tommi/ros2/ws/install/number_publisher:/home/tommi/ros2/ws/install/number_counter_py:/home/tommi/ros2/ws/install/temperature:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tommi/ros2/ws/turtle_challenge_cpp -DCMAKE_INSTALL_PREFIX=/home/tommi/ros2/ws/install/turtle_challenge_cpp
+[0.080s] -- The C compiler identification is GNU 13.3.0
+[0.164s] -- The CXX compiler identification is GNU 13.3.0
+[0.188s] -- Detecting C compiler ABI info
+[0.316s] -- Detecting C compiler ABI info - done
+[0.327s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.327s] -- Detecting C compile features
+[0.328s] -- Detecting C compile features - done
+[0.347s] -- Detecting CXX compiler ABI info
+[0.475s] -- Detecting CXX compiler ABI info - done
+[0.487s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.487s] -- Detecting CXX compile features
+[0.487s] -- Detecting CXX compile features - done
+[0.494s] -- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.686s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.845s] -- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.922s] -- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.951s] -- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.979s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.009s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.124s] -- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.132s] -- Found rmw_cyclonedds_cpp: 2.2.2 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)
+[1.185s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.291s] -- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)
+[1.385s] -- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[1.436s] [31mCMake Error at CMakeLists.txt:16 (target_include_directories):
+[1.436s]   Cannot specify include directories for target "challence2" which is not
+[1.436s]   built by this project.
+[1.436s] 
+[1.436s] [0m
+[1.436s] [31mCMake Error at CMakeLists.txt:19 (target_compile_features):
+[1.436s]   Cannot specify compile features for target "challence2" which is not built
+[1.436s]   by this project.
+[1.436s] 
+[1.436s] [0m
+[1.442s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[1.576s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.576s] -- Configured cppcheck include dirs: 
+[1.576s] -- Configured cppcheck exclude dirs and/or files: 
+[1.577s] -- Added test 'lint_cmake' to check CMake code style
+[1.580s] -- Added test 'uncrustify' to check C / C++ code style
+[1.580s] -- Configured uncrustify additional arguments: 
+[1.581s] -- Added test 'xmllint' to check XML markup files
+[1.584s] -- Configuring incomplete, errors occurred!
+[1.593s] Invoked command in '/home/tommi/ros2/ws/build/turtle_challenge_cpp' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tommi/ros2/ws/install/number_publisher:/home/tommi/ros2/ws/install/number_counter_py:/home/tommi/ros2/ws/install/temperature:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/tommi/ros2/ws/turtle_challenge_cpp -DCMAKE_INSTALL_PREFIX=/home/tommi/ros2/ws/install/turtle_challenge_cpp

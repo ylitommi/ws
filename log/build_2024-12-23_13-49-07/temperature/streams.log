@@ -1,0 +1,17 @@
+[0.954s] Invoking command in '/home/tommi/ros2/ws/build/temperature': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tommi/ros2/ws/build/temperature/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tommi/ros2/ws/build/temperature/build --no-deps symlink_data
+[1.348s] running develop
+[1.605s] running egg_info
+[1.630s] writing temperature.egg-info/PKG-INFO
+[1.630s] writing dependency_links to temperature.egg-info/dependency_links.txt
+[1.630s] writing entry points to temperature.egg-info/entry_points.txt
+[1.631s] writing requirements to temperature.egg-info/requires.txt
+[1.631s] writing top-level names to temperature.egg-info/top_level.txt
+[1.680s] reading manifest file 'temperature.egg-info/SOURCES.txt'
+[1.681s] writing manifest file 'temperature.egg-info/SOURCES.txt'
+[1.707s] running build_ext
+[1.707s] Creating /home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages/temperature.egg-link (link to .)
+[1.707s] Installing publish_temp script to /home/tommi/ros2/ws/install/temperature/lib/temperature
+[1.708s] 
+[1.708s] Installed /home/tommi/ros2/ws/build/temperature
+[1.708s] running symlink_data
+[1.741s] Invoked command in '/home/tommi/ros2/ws/build/temperature' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/tommi/ros2/ws/build/temperature/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/tommi/ros2/ws/build/temperature/build --no-deps symlink_data

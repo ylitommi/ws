@@ -1,0 +1,3 @@
+/home/tommi/ros2/ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:msg/Int64.idl
+/home/tommi/ros2/ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/ResetCounter.idl
+/home/tommi/ros2/ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces:srv/StopTurtle.idl

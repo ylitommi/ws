@@ -1,0 +1,135 @@
+[0.000000] (-) TimerEvent: {}
+[0.000207] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000270] (-) JobUnselected: {'identifier': 'number_counter_py'}
+[0.000289] (-) JobUnselected: {'identifier': 'number_publisher'}
+[0.000303] (-) JobUnselected: {'identifier': 'service_client_cpp'}
+[0.000394] (-) JobUnselected: {'identifier': 'temperature'}
+[0.000414] (turtle_challenge_cpp) JobQueued: {'identifier': 'turtle_challenge_cpp', 'dependencies': OrderedDict({'my_robot_interfaces': '/home/tommi/ros2/ws/install/my_robot_interfaces'})}
+[0.000435] (turtle_challenge_cpp) JobStarted: {'identifier': 'turtle_challenge_cpp'}
+[0.012029] (turtle_challenge_cpp) JobProgress: {'identifier': 'turtle_challenge_cpp', 'progress': 'cmake'}
+[0.012621] (turtle_challenge_cpp) JobProgress: {'identifier': 'turtle_challenge_cpp', 'progress': 'build'}
+[0.013181] (turtle_challenge_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tommi/ros2/ws/build/turtle_challenge_cpp', '--', '-j8', '-l8'], 'cwd': '/home/tommi/ros2/ws/build/turtle_challenge_cpp', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2498-0-ros2_TIME262033238', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tommi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tommi/ros2/ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tommi', 'CYCLONEDDS_URI': 'file:///home/tommi/ros2/cyclonedds.xml', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2125', 'SYSTEMD_EXEC_PID': '2498', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '31126', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tommi/ros2/ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tommi', 'JOURNAL_STREAM': '8:15995', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tommi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros2:@/tmp/.ICE-unix/2452,unix/ros2:/tmp/.ICE-unix/2452', 'INVOCATION_ID': '27febef951684abfb25416e678414c9f', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.B3ANZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tommi/ros2/ws/install/turtle_challenge_cpp:/home/tommi/ros2/ws/install/service_client_cpp:/home/tommi/ros2/ws/install/temperature:/home/tommi/ros2/ws/install/number_publisher:/home/tommi/ros2/ws/install/number_counter_py:/home/tommi/ros2/ws/install/my_robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f43d2720-5b7c-4204-b0ab-ae354277b1d7', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tommi/ros2/ws/build/turtle_challenge_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tommi/ros2/ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tommi/ros2/ws/build/temperature:/home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/number_publisher/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/number_counter_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/tommi/ros2/ws/install/my_robot_interfaces:/home/tommi/ros2/ws/install/turtle_challenge_cpp:/home/tommi/ros2/ws/install/service_client_cpp:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tommi/ros2/ws/install/temperature:/home/tommi/ros2/ws/install/number_publisher:/home/tommi/ros2/ws/install/number_counter_py:/opt/ros/jazzy'}), 'shell': False}
+[0.090923] (turtle_challenge_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/challenge2.dir/src/challenge2.cpp.o\x1b[0m\n'}
+[0.099191] (-) TimerEvent: {}
+[0.199452] (-) TimerEvent: {}
+[0.299793] (-) TimerEvent: {}
+[0.400058] (-) TimerEvent: {}
+[0.500323] (-) TimerEvent: {}
+[0.600606] (-) TimerEvent: {}
+[0.700881] (-) TimerEvent: {}
+[0.801128] (-) TimerEvent: {}
+[0.901383] (-) TimerEvent: {}
+[1.001637] (-) TimerEvent: {}
+[1.101919] (-) TimerEvent: {}
+[1.202135] (-) TimerEvent: {}
+[1.302371] (-) TimerEvent: {}
+[1.402682] (-) TimerEvent: {}
+[1.502903] (-) TimerEvent: {}
+[1.603148] (-) TimerEvent: {}
+[1.703393] (-) TimerEvent: {}
+[1.803642] (-) TimerEvent: {}
+[1.903897] (-) TimerEvent: {}
+[2.004166] (-) TimerEvent: {}
+[2.104431] (-) TimerEvent: {}
+[2.204712] (-) TimerEvent: {}
+[2.304999] (-) TimerEvent: {}
+[2.405250] (-) TimerEvent: {}
+[2.505498] (-) TimerEvent: {}
+[2.605744] (-) TimerEvent: {}
+[2.705987] (-) TimerEvent: {}
+[2.806233] (-) TimerEvent: {}
+[2.906496] (-) TimerEvent: {}
+[3.006780] (-) TimerEvent: {}
+[3.107026] (-) TimerEvent: {}
+[3.207272] (-) TimerEvent: {}
+[3.307535] (-) TimerEvent: {}
+[3.407750] (-) TimerEvent: {}
+[3.507997] (-) TimerEvent: {}
+[3.608261] (-) TimerEvent: {}
+[3.708505] (-) TimerEvent: {}
+[3.808757] (-) TimerEvent: {}
+[3.909035] (-) TimerEvent: {}
+[4.009335] (-) TimerEvent: {}
+[4.109600] (-) TimerEvent: {}
+[4.209871] (-) TimerEvent: {}
+[4.310132] (-) TimerEvent: {}
+[4.410379] (-) TimerEvent: {}
+[4.510637] (-) TimerEvent: {}
+[4.610861] (-) TimerEvent: {}
+[4.711085] (-) TimerEvent: {}
+[4.811384] (-) TimerEvent: {}
+[4.911642] (-) TimerEvent: {}
+[5.011894] (-) TimerEvent: {}
+[5.112148] (-) TimerEvent: {}
+[5.212434] (-) TimerEvent: {}
+[5.312688] (-) TimerEvent: {}
+[5.412904] (-) TimerEvent: {}
+[5.513143] (-) TimerEvent: {}
+[5.613435] (-) TimerEvent: {}
+[5.713713] (-) TimerEvent: {}
+[5.813954] (-) TimerEvent: {}
+[5.914259] (-) TimerEvent: {}
+[6.014550] (-) TimerEvent: {}
+[6.114820] (-) TimerEvent: {}
+[6.215078] (-) TimerEvent: {}
+[6.315370] (-) TimerEvent: {}
+[6.415652] (-) TimerEvent: {}
+[6.515929] (-) TimerEvent: {}
+[6.616222] (-) TimerEvent: {}
+[6.716494] (-) TimerEvent: {}
+[6.816778] (-) TimerEvent: {}
+[6.917059] (-) TimerEvent: {}
+[7.017357] (-) TimerEvent: {}
+[7.117693] (-) TimerEvent: {}
+[7.217976] (-) TimerEvent: {}
+[7.318265] (-) TimerEvent: {}
+[7.418539] (-) TimerEvent: {}
+[7.518757] (-) TimerEvent: {}
+[7.619040] (-) TimerEvent: {}
+[7.719318] (-) TimerEvent: {}
+[7.819571] (-) TimerEvent: {}
+[7.919798] (-) TimerEvent: {}
+[8.020045] (-) TimerEvent: {}
+[8.120284] (-) TimerEvent: {}
+[8.220524] (-) TimerEvent: {}
+[8.320744] (-) TimerEvent: {}
+[8.420999] (-) TimerEvent: {}
+[8.521212] (-) TimerEvent: {}
+[8.621509] (-) TimerEvent: {}
+[8.721753] (-) TimerEvent: {}
+[8.822014] (-) TimerEvent: {}
+[8.922262] (-) TimerEvent: {}
+[9.022555] (-) TimerEvent: {}
+[9.122843] (-) TimerEvent: {}
+[9.223106] (-) TimerEvent: {}
+[9.279369] (turtle_challenge_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable challenge2\x1b[0m\n'}
+[9.323208] (-) TimerEvent: {}
+[9.423517] (-) TimerEvent: {}
+[9.523850] (-) TimerEvent: {}
+[9.624171] (-) TimerEvent: {}
+[9.724537] (-) TimerEvent: {}
+[9.737951] (turtle_challenge_cpp) StdoutLine: {'line': b'[100%] Built target challenge2\n'}
+[9.757231] (turtle_challenge_cpp) CommandEnded: {'returncode': 0}
+[9.758235] (turtle_challenge_cpp) JobProgress: {'identifier': 'turtle_challenge_cpp', 'progress': 'install'}
+[9.774464] (turtle_challenge_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tommi/ros2/ws/build/turtle_challenge_cpp'], 'cwd': '/home/tommi/ros2/ws/build/turtle_challenge_cpp', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2498-0-ros2_TIME262033238', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tommi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tommi/ros2/ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tommi', 'CYCLONEDDS_URI': 'file:///home/tommi/ros2/cyclonedds.xml', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2125', 'SYSTEMD_EXEC_PID': '2498', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '31126', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tommi/ros2/ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tommi', 'JOURNAL_STREAM': '8:15995', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tommi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros2:@/tmp/.ICE-unix/2452,unix/ros2:/tmp/.ICE-unix/2452', 'INVOCATION_ID': '27febef951684abfb25416e678414c9f', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.B3ANZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tommi/ros2/ws/install/turtle_challenge_cpp:/home/tommi/ros2/ws/install/service_client_cpp:/home/tommi/ros2/ws/install/temperature:/home/tommi/ros2/ws/install/number_publisher:/home/tommi/ros2/ws/install/number_counter_py:/home/tommi/ros2/ws/install/my_robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:f43d2720-5b7c-4204-b0ab-ae354277b1d7', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tommi/ros2/ws/build/turtle_challenge_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tommi/ros2/ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tommi/ros2/ws/build/temperature:/home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/number_publisher/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/number_counter_py/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/tommi/ros2/ws/install/my_robot_interfaces:/home/tommi/ros2/ws/install/turtle_challenge_cpp:/home/tommi/ros2/ws/install/service_client_cpp:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tommi/ros2/ws/install/temperature:/home/tommi/ros2/ws/install/number_publisher:/home/tommi/ros2/ws/install/number_counter_py:/opt/ros/jazzy'}), 'shell': False}
+[9.789974] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[9.790375] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Installing: /home/tommi/ros2/ws/install/turtle_challenge_cpp/lib/turtle_challenge_cpp/challenge2\n'}
+[9.799134] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/tommi/ros2/ws/install/turtle_challenge_cpp/lib/turtle_challenge_cpp/challenge2" to ""\n'}
+[9.799578] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/ament_index/resource_index/package_run_dependencies/turtle_challenge_cpp\n'}
+[9.799845] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/ament_index/resource_index/parent_prefix_path/turtle_challenge_cpp\n'}
+[9.800011] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/environment/ament_prefix_path.sh\n'}
+[9.800189] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/environment/ament_prefix_path.dsv\n'}
+[9.800386] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/environment/path.sh\n'}
+[9.800560] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/environment/path.dsv\n'}
+[9.800796] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/local_setup.bash\n'}
+[9.800951] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/local_setup.sh\n'}
+[9.801095] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/local_setup.zsh\n'}
+[9.801247] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/local_setup.dsv\n'}
+[9.801384] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Installing: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/package.dsv\n'}
+[9.801561] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/ament_index/resource_index/packages/turtle_challenge_cpp\n'}
+[9.801729] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/cmake/turtle_challenge_cppConfig.cmake\n'}
+[9.802612] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/cmake/turtle_challenge_cppConfig-version.cmake\n'}
+[9.802816] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/package.xml\n'}
+[9.802927] (turtle_challenge_cpp) CommandEnded: {'returncode': 0}
+[9.819002] (turtle_challenge_cpp) JobEnded: {'identifier': 'turtle_challenge_cpp', 'rc': 0}
+[9.819906] (-) EventReactorShutdown: {}
