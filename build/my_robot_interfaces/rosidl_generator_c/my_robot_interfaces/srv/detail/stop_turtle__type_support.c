@@ -4,10 +4,10 @@
 
 #include <string.h>
 
-#include "my_robot_interfaces/srv/detail/stop_turtle__type_support.h"
-#include "my_robot_interfaces/srv/detail/stop_turtle__struct.h"
 #include "my_robot_interfaces/srv/detail/stop_turtle__functions.h"
 #include "rosidl_typesupport_interface/macros.h"
+#include "my_robot_interfaces/srv/detail/stop_turtle__type_support.h"
+#include "my_robot_interfaces/srv/detail/stop_turtle__struct.h"
 
 #ifdef __cplusplus
 extern "C"

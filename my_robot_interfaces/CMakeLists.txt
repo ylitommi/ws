@@ -13,6 +13,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "msg/Int64.msg"
   "srv/ResetCounter.srv"
   "srv/StopTurtle.srv"
+  "action/CountUntil.action"
 )
 ament_export_dependencies(rosidl_default_runtime)
 

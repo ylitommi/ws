@@ -59,6 +59,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_interfaces/action" TYPE FILE FILES "/home/tommi/ros2/ws/build/my_robot_interfaces/rosidl_generator_type_description/my_robot_interfaces/action/CountUntil.json")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include/my_robot_interfaces/my_robot_interfaces" TYPE DIRECTORY FILES "/home/tommi/ros2/ws/build/my_robot_interfaces/rosidl_generator_c/my_robot_interfaces/" REGEX "/[^/]*\\.h$")
 endif()
 
@@ -383,6 +387,10 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_interfaces/action" TYPE FILE FILES "/home/tommi/ros2/ws/build/my_robot_interfaces/rosidl_adapter/my_robot_interfaces/action/CountUntil.idl")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_interfaces/msg" TYPE FILE FILES "/home/tommi/ros2/ws/my_robot_interfaces/msg/Int64.msg")
 endif()
 
@@ -392,6 +400,10 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_interfaces/srv" TYPE FILE FILES "/home/tommi/ros2/ws/my_robot_interfaces/srv/StopTurtle.srv")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/my_robot_interfaces/action" TYPE FILE FILES "/home/tommi/ros2/ws/my_robot_interfaces/action/CountUntil.action")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)

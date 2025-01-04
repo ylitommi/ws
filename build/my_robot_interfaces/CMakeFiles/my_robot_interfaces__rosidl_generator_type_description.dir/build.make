@@ -69,12 +69,14 @@ include CMakeFiles/my_robot_interfaces__rosidl_generator_type_description.dir/pr
 CMakeFiles/my_robot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/my_robot_interfaces/msg/Int64.json
 CMakeFiles/my_robot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/my_robot_interfaces/srv/ResetCounter.json
 CMakeFiles/my_robot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/my_robot_interfaces/srv/StopTurtle.json
+CMakeFiles/my_robot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/my_robot_interfaces/action/CountUntil.json
 
 rosidl_generator_type_description/my_robot_interfaces/msg/Int64.json: /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description
 rosidl_generator_type_description/my_robot_interfaces/msg/Int64.json: /opt/ros/jazzy/lib/python3.12/site-packages/rosidl_generator_type_description/__init__.py
 rosidl_generator_type_description/my_robot_interfaces/msg/Int64.json: rosidl_adapter/my_robot_interfaces/msg/Int64.idl
 rosidl_generator_type_description/my_robot_interfaces/msg/Int64.json: rosidl_adapter/my_robot_interfaces/srv/ResetCounter.idl
 rosidl_generator_type_description/my_robot_interfaces/msg/Int64.json: rosidl_adapter/my_robot_interfaces/srv/StopTurtle.idl
+rosidl_generator_type_description/my_robot_interfaces/msg/Int64.json: rosidl_adapter/my_robot_interfaces/action/CountUntil.idl
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=/home/tommi/ros2/ws/build/my_robot_interfaces/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating type hashes for ROS interfaces"
 	/usr/bin/python3 /opt/ros/jazzy/lib/rosidl_generator_type_description/rosidl_generator_type_description --generator-arguments-file /home/tommi/ros2/ws/build/my_robot_interfaces/rosidl_generator_type_description__arguments.json
 
@@ -84,7 +86,11 @@ rosidl_generator_type_description/my_robot_interfaces/srv/ResetCounter.json: ros
 rosidl_generator_type_description/my_robot_interfaces/srv/StopTurtle.json: rosidl_generator_type_description/my_robot_interfaces/msg/Int64.json
 	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/my_robot_interfaces/srv/StopTurtle.json
 
+rosidl_generator_type_description/my_robot_interfaces/action/CountUntil.json: rosidl_generator_type_description/my_robot_interfaces/msg/Int64.json
+	@$(CMAKE_COMMAND) -E touch_nocreate rosidl_generator_type_description/my_robot_interfaces/action/CountUntil.json
+
 my_robot_interfaces__rosidl_generator_type_description: CMakeFiles/my_robot_interfaces__rosidl_generator_type_description
+my_robot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/my_robot_interfaces/action/CountUntil.json
 my_robot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/my_robot_interfaces/msg/Int64.json
 my_robot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/my_robot_interfaces/srv/ResetCounter.json
 my_robot_interfaces__rosidl_generator_type_description: rosidl_generator_type_description/my_robot_interfaces/srv/StopTurtle.json

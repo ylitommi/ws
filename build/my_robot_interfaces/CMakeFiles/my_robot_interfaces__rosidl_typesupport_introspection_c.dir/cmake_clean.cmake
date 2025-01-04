@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/action/detail/count_until__type_support.c.o"
+  "CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/action/detail/count_until__type_support.c.o.d"
   "CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/int64__type_support.c.o"
   "CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/int64__type_support.c.o.d"
   "CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/reset_counter__type_support.c.o"
@@ -7,6 +9,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/my_robot_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/stop_turtle__type_support.c.o.d"
   "libmy_robot_interfaces__rosidl_typesupport_introspection_c.pdb"
   "libmy_robot_interfaces__rosidl_typesupport_introspection_c.so"
+  "rosidl_typesupport_introspection_c/my_robot_interfaces/action/detail/count_until__rosidl_typesupport_introspection_c.h"
+  "rosidl_typesupport_introspection_c/my_robot_interfaces/action/detail/count_until__type_support.c"
   "rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/int64__rosidl_typesupport_introspection_c.h"
   "rosidl_typesupport_introspection_c/my_robot_interfaces/msg/detail/int64__type_support.c"
   "rosidl_typesupport_introspection_c/my_robot_interfaces/srv/detail/reset_counter__rosidl_typesupport_introspection_c.h"
