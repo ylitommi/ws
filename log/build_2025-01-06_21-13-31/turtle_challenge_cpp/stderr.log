@@ -1,0 +1,13 @@
+[01m[K/home/tommi/ros2/ws/turtle_challenge_cpp/src/challenge2_parameters.cpp:[m[K In constructor ‘[01m[KChallenge2Node::[01;32m[KChallenge2Node[m[K()[m[K’:
+[01m[K/home/tommi/ros2/ws/turtle_challenge_cpp/src/challenge2_parameters.cpp:27:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kparam_callback_handle_[m[K’ was not declared in this scope
+   27 |       [01;31m[Kparam_callback_handle_[m[K = this->add_post_set_parameters_callback(std::bind(&Challenge2Node::ParamCallbackMethod, this, _1);
+      |       [01;31m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tommi/ros2/ws/turtle_challenge_cpp/src/challenge2_parameters.cpp:27:128:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K;[m[K’ token
+   27 |       param_callback_handle_ = this->add_post_set_parameters_callback(std::bind(&Challenge2Node::ParamCallbackMethod, this, _1)[01;31m[K;[m[K
+      |                                                                                                                                [01;31m[K^[m[K
+[01m[K/home/tommi/ros2/ws/turtle_challenge_cpp/src/challenge2_parameters.cpp:27:70:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+   27 |       param_callback_handle_ = this->add_post_set_parameters_callback[01;36m[K([m[Kstd::bind(&Challenge2Node::ParamCallbackMethod, this, _1);
+      |                                                                      [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/challenge2_params.dir/build.make:76: CMakeFiles/challenge2_params.dir/src/challenge2_parameters.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/challenge2_params.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

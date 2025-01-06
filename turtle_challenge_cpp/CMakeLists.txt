@@ -14,6 +14,7 @@ find_package(my_robot_interfaces)
 
 
 add_executable(challenge2 src/challenge2.cpp)
+
 target_include_directories(challenge2 PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
@@ -26,7 +27,23 @@ ament_target_dependencies(
   my_robot_interfaces
 )
 
-install(TARGETS challenge2
+add_executable(challenge2_params src/challenge2_parameters.cpp)
+target_include_directories(challenge2_params PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include/${PROJECT_NAME}>)
+target_compile_features(challenge2_params PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+ament_target_dependencies(
+  challenge2_params
+  rclcpp
+  turtlesim
+  geometry_msgs
+  my_robot_interfaces
+)
+
+
+install(TARGETS 
+  challenge2
+  challenge2_params
   DESTINATION lib/${PROJECT_NAME})
 
 if(BUILD_TESTING)

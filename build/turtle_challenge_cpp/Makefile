@@ -210,6 +210,19 @@ challenge2/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/challenge2.dir/build.make CMakeFiles/challenge2.dir/build
 .PHONY : challenge2/fast
 
+#=============================================================================
+# Target rules for targets named challenge2_params
+
+# Build rule for target.
+challenge2_params: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 challenge2_params
+.PHONY : challenge2_params
+
+# fast build rule for target.
+challenge2_params/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/challenge2_params.dir/build.make CMakeFiles/challenge2_params.dir/build
+.PHONY : challenge2_params/fast
+
 src/challenge2.o: src/challenge2.cpp.o
 .PHONY : src/challenge2.o
 
@@ -234,6 +247,30 @@ src/challenge2.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/challenge2.dir/build.make CMakeFiles/challenge2.dir/src/challenge2.cpp.s
 .PHONY : src/challenge2.cpp.s
 
+src/challenge2_parameters.o: src/challenge2_parameters.cpp.o
+.PHONY : src/challenge2_parameters.o
+
+# target to build an object file
+src/challenge2_parameters.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/challenge2_params.dir/build.make CMakeFiles/challenge2_params.dir/src/challenge2_parameters.cpp.o
+.PHONY : src/challenge2_parameters.cpp.o
+
+src/challenge2_parameters.i: src/challenge2_parameters.cpp.i
+.PHONY : src/challenge2_parameters.i
+
+# target to preprocess a source file
+src/challenge2_parameters.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/challenge2_params.dir/build.make CMakeFiles/challenge2_params.dir/src/challenge2_parameters.cpp.i
+.PHONY : src/challenge2_parameters.cpp.i
+
+src/challenge2_parameters.s: src/challenge2_parameters.cpp.s
+.PHONY : src/challenge2_parameters.s
+
+# target to generate assembly for a file
+src/challenge2_parameters.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/challenge2_params.dir/build.make CMakeFiles/challenge2_params.dir/src/challenge2_parameters.cpp.s
+.PHONY : src/challenge2_parameters.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... turtle_challenge_cpp_uninstall"
 	@echo "... uninstall"
 	@echo "... challenge2"
+	@echo "... challenge2_params"
 	@echo "... src/challenge2.o"
 	@echo "... src/challenge2.i"
 	@echo "... src/challenge2.s"
+	@echo "... src/challenge2_parameters.o"
+	@echo "... src/challenge2_parameters.i"
+	@echo "... src/challenge2_parameters.s"
 .PHONY : help
 
 

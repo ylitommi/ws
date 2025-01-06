@@ -1,0 +1,23 @@
+[ 50%] Built target challenge2
+[ 75%] [32mBuilding CXX object CMakeFiles/challenge2_params.dir/src/challenge2_parameters.cpp.o[0m
+[100%] [32m[1mLinking CXX executable challenge2_params[0m
+[100%] Built target challenge2_params
+-- Install configuration: ""
+-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/lib/turtle_challenge_cpp/challenge2
+-- Installing: /home/tommi/ros2/ws/install/turtle_challenge_cpp/lib/turtle_challenge_cpp/challenge2_params
+-- Set non-toolchain portion of runtime path of "/home/tommi/ros2/ws/install/turtle_challenge_cpp/lib/turtle_challenge_cpp/challenge2_params" to ""
+-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/ament_index/resource_index/package_run_dependencies/turtle_challenge_cpp
+-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/ament_index/resource_index/parent_prefix_path/turtle_challenge_cpp
+-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/environment/path.sh
+-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/environment/path.dsv
+-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/local_setup.bash
+-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/local_setup.sh
+-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/local_setup.zsh
+-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/local_setup.dsv
+-- Installing: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/package.dsv
+-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/ament_index/resource_index/packages/turtle_challenge_cpp
+-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/cmake/turtle_challenge_cppConfig.cmake
+-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/cmake/turtle_challenge_cppConfig-version.cmake
+-- Up-to-date: /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/package.xml

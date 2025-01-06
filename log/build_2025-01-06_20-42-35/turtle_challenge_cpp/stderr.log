@@ -1,0 +1,9 @@
+[01m[K/home/tommi/ros2/ws/turtle_challenge_cpp/src/challenge2_parameters.cpp:[m[K In member function ‘[01m[Kvoid Challenge2Node::[01;32m[KSubscriberCallbackMethod[m[K(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/tommi/ros2/ws/turtle_challenge_cpp/src/challenge2_parameters.cpp:50:15:[m[K [01;31m[Kerror: [m[K‘[01m[Kold_x[m[K’ was not declared in this scope; did you mean ‘[01m[Kold_x_[m[K’?
+   50 |           if ([01;31m[Kold_x[m[K < x_line_){
+      |               [01;31m[K^~~~~[m[K
+      |               [32m[Kold_x_[m[K
+gmake[2]: *** [CMakeFiles/challenge2_params.dir/build.make:76: CMakeFiles/challenge2_params.dir/src/challenge2_parameters.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/challenge2_params.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

@@ -1,19 +1,21 @@
 #! /usr/bin/env python3
 import rclpy
 from rclpy.node import Node
-import rclpy.node
 from my_robot_interfaces.msg import Int64
 from my_robot_interfaces.srv import ResetCounter
 
 class NumberPublisher(Node):
     def __init__(self):
         super().__init__('NumberPublisher')
-        self.number_ = 0
+        self.declare_parameter("number", 0)
+        self.declare_parameter("period", 1.0)
+        self.number_ = self.get_parameter("number").value
+        self.period_ = self.get_parameter("period").value
         self.number_publisher_ = self.create_publisher(Int64, 'number',10)
-        self.publish_timer1_ = self.create_timer(1.0, self.publish_number)
+        self.publish_timer1_ = self.create_timer(self.period_, self.publish_number)
         self.srv_reset_counter_ = self.create_service(ResetCounter, 'reset_counter', self.callback_reset_counter)
         self.get_logger().info('Number publisher object initiated')
-
+        
     def publish_number(self):
         msg = Int64()
         self.number_ += 1

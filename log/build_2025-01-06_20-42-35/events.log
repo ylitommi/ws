@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.000284] (-) JobUnselected: {'identifier': 'my_cpp_pkg'}
+[0.000524] (-) JobUnselected: {'identifier': 'my_py_pkg'}
+[0.000644] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000742] (-) JobUnselected: {'identifier': 'number_counter_py'}
+[0.000821] (-) JobUnselected: {'identifier': 'number_publisher'}
+[0.000850] (-) JobUnselected: {'identifier': 'service_client_cpp'}
+[0.000878] (-) JobUnselected: {'identifier': 'temperature'}
+[0.000923] (turtle_challenge_cpp) JobQueued: {'identifier': 'turtle_challenge_cpp', 'dependencies': OrderedDict({'my_robot_interfaces': '/home/tommi/ros2/ws/install/my_robot_interfaces'})}
+[0.000970] (turtle_challenge_cpp) JobStarted: {'identifier': 'turtle_challenge_cpp'}
+[0.012819] (turtle_challenge_cpp) JobProgress: {'identifier': 'turtle_challenge_cpp', 'progress': 'cmake'}
+[0.013433] (turtle_challenge_cpp) JobProgress: {'identifier': 'turtle_challenge_cpp', 'progress': 'build'}
+[0.014019] (turtle_challenge_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tommi/ros2/ws/build/turtle_challenge_cpp', '--', '-j8', '-l8'], 'cwd': '/home/tommi/ros2/ws/build/turtle_challenge_cpp', 'env': OrderedDict({'GJS_DEBUG_TOPICS': 'JS ERROR;JS LOG', 'XDG_ACTIVATION_TOKEN': 'gnome-shell/Terminator/2498-0-ros2_TIME262033238', 'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'tommi', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/tommi/ros2/ws/install/my_robot_interfaces/lib:/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/libphidget22/lib:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/tommi', 'CYCLONEDDS_URI': 'file:///home/tommi/ros2/cyclonedds.xml', 'OLDPWD': '/home/tommi/ros2', 'DESKTOP_SESSION': 'ubuntu', 'GIO_LAUNCHED_DESKTOP_FILE': '/usr/share/applications/terminator.desktop', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2125', 'SYSTEMD_EXEC_PID': '2498', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '31126', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/tommi/ros2/ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'tommi', 'JOURNAL_STREAM': '8:15995', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'tommi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/ros2:@/tmp/.ICE-unix/2452,unix/ros2:/tmp/.ICE-unix/2452', 'INVOCATION_ID': '27febef951684abfb25416e678414c9f', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.B3ANZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/tommi/ros2/ws/install/turtle_challenge_cpp:/home/tommi/ros2/ws/install/my_py_pkg:/home/tommi/ros2/ws/install/service_client_cpp:/home/tommi/ros2/ws/install/number_counter_py:/home/tommi/ros2/ws/install/temperature:/home/tommi/ros2/ws/install/number_publisher:/home/tommi/ros2/ws/install/my_robot_interfaces:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:a6bcc576-47fa-4782-8cda-72ec2bc1e25f', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GJS_DEBUG_OUTPUT': 'stderr', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/tommi/ros2/ws/build/turtle_challenge_cpp', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/tommi/ros2/ws/install/my_robot_interfaces/lib/python3.12/site-packages:/home/tommi/ros2/ws/build/my_py_pkg:/home/tommi/ros2/ws/install/my_py_pkg/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/number_counter_py/lib/python3.12/site-packages:/home/tommi/ros2/ws/build/temperature:/home/tommi/ros2/ws/install/temperature/lib/python3.12/site-packages:/home/tommi/ros2/ws/install/number_publisher/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/tommi/ros2/ws/install/my_robot_interfaces:/home/tommi/ros2/ws/install/turtle_challenge_cpp:/home/tommi/ros2/ws/install/service_client_cpp:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/tommi/ros2/ws/install/my_py_pkg:/home/tommi/ros2/ws/install/number_counter_py:/home/tommi/ros2/ws/install/temperature:/home/tommi/ros2/ws/install/number_publisher:/opt/ros/jazzy'}), 'shell': False}
+[0.045272] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.2 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099673] (-) TimerEvent: {}
+[0.199942] (-) TimerEvent: {}
+[0.270857] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Found rclcpp: 28.1.5 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.300032] (-) TimerEvent: {}
+[0.301168] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.310919] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.4 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.322990] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.337273] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400153] (-) TimerEvent: {}
+[0.401632] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.1 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.403685] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 2.2.2 (/opt/ros/jazzy/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.427735] (turtle_challenge_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.498451] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Found turtlesim: 1.8.3 (/opt/ros/jazzy/share/turtlesim/cmake)\n'}
+[0.500224] (-) TimerEvent: {}
+[0.555014] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[0.587911] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Found my_robot_interfaces: 0.0.0 (/home/tommi/ros2/ws/install/my_robot_interfaces/share/my_robot_interfaces/cmake)\n'}
+[0.600300] (-) TimerEvent: {}
+[0.615677] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[0.700402] (-) TimerEvent: {}
+[0.717448] (turtle_challenge_cpp) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.717709] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tommi/ros2/ws/turtle_challenge_cpp/include>\n'}
+[0.717790] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.718667] (turtle_challenge_cpp) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.719910] (turtle_challenge_cpp) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.719993] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.720479] (turtle_challenge_cpp) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.721754] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[0.741822] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.748087] (turtle_challenge_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/tommi/ros2/ws/build/turtle_challenge_cpp\n'}
+[0.789424] (turtle_challenge_cpp) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/challenge2_params.dir/src/challenge2_parameters.cpp.o\x1b[0m\n'}
+[0.800214] (turtle_challenge_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/challenge2.dir/src/challenge2.cpp.o\x1b[0m\n'}
+[0.800416] (-) TimerEvent: {}
+[0.900615] (-) TimerEvent: {}
+[1.000858] (-) TimerEvent: {}
+[1.101132] (-) TimerEvent: {}
+[1.201437] (-) TimerEvent: {}
+[1.301701] (-) TimerEvent: {}
+[1.401965] (-) TimerEvent: {}
+[1.502261] (-) TimerEvent: {}
+[1.602546] (-) TimerEvent: {}
+[1.702815] (-) TimerEvent: {}
+[1.803072] (-) TimerEvent: {}
+[1.903310] (-) TimerEvent: {}
+[2.003619] (-) TimerEvent: {}
+[2.103867] (-) TimerEvent: {}
+[2.204116] (-) TimerEvent: {}
+[2.304362] (-) TimerEvent: {}
+[2.404635] (-) TimerEvent: {}
+[2.504886] (-) TimerEvent: {}
+[2.605145] (-) TimerEvent: {}
+[2.705419] (-) TimerEvent: {}
+[2.805699] (-) TimerEvent: {}
+[2.905969] (-) TimerEvent: {}
+[3.006245] (-) TimerEvent: {}
+[3.106491] (-) TimerEvent: {}
+[3.106714] (turtle_challenge_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tommi/ros2/ws/turtle_challenge_cpp/src/challenge2_parameters.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Challenge2Node::\x1b[01;32m\x1b[KSubscriberCallbackMethod\x1b[m\x1b[K(turtlesim::msg::Pose_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.106878] (turtle_challenge_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tommi/ros2/ws/turtle_challenge_cpp/src/challenge2_parameters.cpp:50:15:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kold_x\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kold_x_\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.106974] (turtle_challenge_cpp) StderrLine: {'line': b'   50 |           if (\x1b[01;31m\x1b[Kold_x\x1b[m\x1b[K < x_line_){\n'}
+[3.107046] (turtle_challenge_cpp) StderrLine: {'line': b'      |               \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.107114] (turtle_challenge_cpp) StderrLine: {'line': b'      |               \x1b[32m\x1b[Kold_x_\x1b[m\x1b[K\n'}
+[3.206615] (-) TimerEvent: {}
+[3.306852] (-) TimerEvent: {}
+[3.407117] (-) TimerEvent: {}
+[3.507332] (-) TimerEvent: {}
+[3.607546] (-) TimerEvent: {}
+[3.707817] (-) TimerEvent: {}
+[3.808074] (-) TimerEvent: {}
+[3.908328] (-) TimerEvent: {}
+[4.008575] (-) TimerEvent: {}
+[4.108857] (-) TimerEvent: {}
+[4.209116] (-) TimerEvent: {}
+[4.309385] (-) TimerEvent: {}
+[4.409657] (-) TimerEvent: {}
+[4.509929] (-) TimerEvent: {}
+[4.610230] (-) TimerEvent: {}
+[4.710552] (-) TimerEvent: {}
+[4.810847] (-) TimerEvent: {}
+[4.911106] (-) TimerEvent: {}
+[5.011419] (-) TimerEvent: {}
+[5.111702] (-) TimerEvent: {}
+[5.211985] (-) TimerEvent: {}
+[5.312290] (-) TimerEvent: {}
+[5.412583] (-) TimerEvent: {}
+[5.512894] (-) TimerEvent: {}
+[5.613157] (-) TimerEvent: {}
+[5.713414] (-) TimerEvent: {}
+[5.774600] (turtle_challenge_cpp) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/challenge2_params.dir/build.make:76: CMakeFiles/challenge2_params.dir/src/challenge2_parameters.cpp.o] Error 1\n'}
+[5.774819] (turtle_challenge_cpp) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/challenge2_params.dir/all] Error 2\n'}
+[5.774895] (turtle_challenge_cpp) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[5.813548] (-) TimerEvent: {}
+[5.913845] (-) TimerEvent: {}
+[6.014114] (-) TimerEvent: {}
+[6.114382] (-) TimerEvent: {}
+[6.214653] (-) TimerEvent: {}
+[6.314947] (-) TimerEvent: {}
+[6.415260] (-) TimerEvent: {}
+[6.515503] (-) TimerEvent: {}
+[6.615743] (-) TimerEvent: {}
+[6.716028] (-) TimerEvent: {}
+[6.816283] (-) TimerEvent: {}
+[6.916534] (-) TimerEvent: {}
+[7.016787] (-) TimerEvent: {}
+[7.117060] (-) TimerEvent: {}
+[7.217332] (-) TimerEvent: {}
+[7.317583] (-) TimerEvent: {}
+[7.417851] (-) TimerEvent: {}
+[7.518100] (-) TimerEvent: {}
+[7.618362] (-) TimerEvent: {}
+[7.718615] (-) TimerEvent: {}
+[7.818869] (-) TimerEvent: {}
+[7.919118] (-) TimerEvent: {}
+[8.019396] (-) TimerEvent: {}
+[8.119654] (-) TimerEvent: {}
+[8.219928] (-) TimerEvent: {}
+[8.320189] (-) TimerEvent: {}
+[8.420482] (-) TimerEvent: {}
+[8.520733] (-) TimerEvent: {}
+[8.620992] (-) TimerEvent: {}
+[8.721261] (-) TimerEvent: {}
+[8.821543] (-) TimerEvent: {}
+[8.921836] (-) TimerEvent: {}
+[9.022095] (-) TimerEvent: {}
+[9.122357] (-) TimerEvent: {}
+[9.222603] (-) TimerEvent: {}
+[9.322888] (-) TimerEvent: {}
+[9.423197] (-) TimerEvent: {}
+[9.523474] (-) TimerEvent: {}
+[9.623743] (-) TimerEvent: {}
+[9.723994] (-) TimerEvent: {}
+[9.824252] (-) TimerEvent: {}
+[9.924520] (-) TimerEvent: {}
+[10.024795] (-) TimerEvent: {}
+[10.125074] (-) TimerEvent: {}
+[10.142510] (turtle_challenge_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable challenge2\x1b[0m\n'}
+[10.225210] (-) TimerEvent: {}
+[10.325489] (-) TimerEvent: {}
+[10.425779] (-) TimerEvent: {}
+[10.526052] (-) TimerEvent: {}
+[10.598776] (turtle_challenge_cpp) StdoutLine: {'line': b'[ 75%] Built target challenge2\n'}
+[10.599935] (turtle_challenge_cpp) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[10.602281] (turtle_challenge_cpp) CommandEnded: {'returncode': 2}
+[10.611593] (turtle_challenge_cpp) JobEnded: {'identifier': 'turtle_challenge_cpp', 'rc': 2}
+[10.622320] (-) EventReactorShutdown: {}

@@ -1,4 +1,5 @@
 /home/tommi/ros2/ws/install/turtle_challenge_cpp/lib/turtle_challenge_cpp/challenge2
+/home/tommi/ros2/ws/install/turtle_challenge_cpp/lib/turtle_challenge_cpp/challenge2_params
 /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/ament_index/resource_index/package_run_dependencies/turtle_challenge_cpp
 /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/ament_index/resource_index/parent_prefix_path/turtle_challenge_cpp
 /home/tommi/ros2/ws/install/turtle_challenge_cpp/share/turtle_challenge_cpp/environment/ament_prefix_path.sh
